@@ -21,6 +21,24 @@ a{
 h2{
     font-size: 14px;
 }
+/* HEADER */
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    max-width: 750px;
+    width: 100%;
+}
+.nav-container{
+    min-height: 50px;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+
+
+
+
+
 
 /* LAYOUT */
 img{
@@ -42,16 +60,7 @@ img{
     max-height: 500px;
     position: relative;
 }
-/* DEBUG */
-/* .debug{
-    border: 1px dashed black;
-} */
 
-/* UTILITIES */
-.actual-price{
-    color: red;
-    
-}
 .bar{
     min-width: 20px;
     border-bottom: 1px black solid;
@@ -64,6 +73,17 @@ img{
     border: 1px solid rgba(0, 0, 255, 0);
     position: absolute;
 }
+
+
+/* DEBUG */
+.debug{
+    border: 1px dashed black;
+}
+
+
+
+
+/* UTILITIES */
 .labels{
     position: relative;
 }
@@ -72,6 +92,8 @@ img{
     right: 0px;
     padding: 8px;
     font-size: 20px;
+    border: white 1px solid;
+    background-color: white;
 }
 .sustain.tag{
     background-color: green;
@@ -87,4 +109,7 @@ img{
     font-size: 10px;
     padding: 2px 8px;
     top: 300px;
+}
+.actual-price{
+    color: red; 
 }
