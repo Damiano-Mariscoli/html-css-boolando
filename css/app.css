@@ -97,22 +97,11 @@ img{
     position: relative;
 }
 
-.bar{
-    min-width: 20px;
-    border-bottom: 1px black solid;
-    position: absolute;
-    color: rgba(245, 20, 20, 0);
-    bottom:10px;
-    left: 55px;  
-}
+
 .tag{
     border: 1px solid rgba(0, 0, 255, 0);
     position: absolute;
 }
-
-
-/* DEBUG */
-
 .second-img{
     display: none;
 }
@@ -139,6 +128,7 @@ img{
 .sustain.tag{
     background-color: green;
     color: white;
+    font-weight: bold;
     font-size: 10px;
     padding: 2px;
     top: 300px;
