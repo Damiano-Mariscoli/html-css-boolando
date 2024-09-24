@@ -25,16 +25,32 @@ h2{
 .nav-row{
     display: flex;
     justify-content: space-between;
-    gap: 300px;
+    align-items: center;
+    margin: 0 auto;
     max-width: 750px;
-    width: 100%;
+    
 }
 .nav-container{
     min-height: 50px;
     background-color: orange;
     margin-bottom: 50px;
 }
-
+.category{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    min-height: 50px;
+    font-size: 12px;
+}
+.logo{
+    max-height: 20px;
+    max-width: 100px;
+    
+}
+.social{
+    gap: 5px;
+}
 
 
 
