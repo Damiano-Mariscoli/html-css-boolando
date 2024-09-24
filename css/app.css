@@ -11,7 +11,14 @@ a{
     color: currentColor;
     text-decoration: none;
 }
+
+
 /* LAYOUT */
+img{
+    width: 100%;
+    max-width:250px;
+    max-height: 350px;
+}
 .container{
     min-height: 900px;
 }
