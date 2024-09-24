@@ -53,6 +53,26 @@ h2{
 }
 
 
+/* FOOTER */
+.bottom-container{
+    min-height: 100px;
+    background-color: #1a1a1a;
+}
+.bottom-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 750px;
+    font-size: 12px;
+    padding-top: 30px;
+    color: white;
+}
+.privacy{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
 
 
 
