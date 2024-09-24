@@ -1,0 +1,30 @@
+/* RESET RULES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+/* LAYOUT */
+.container{
+    min-height: 900px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.col{
+    min-width: 250px;
+    min-height: 400px;
+}
+/* DEBUG */
+.debug{
+    border: 1px dashed black;
+}
