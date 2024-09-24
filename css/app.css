@@ -39,6 +39,7 @@ img{
 .col{
     max-width:250px;
     max-height: 500px;
+    position: relative;
 }
 /* DEBUG */
 .debug{
@@ -49,4 +50,12 @@ img{
 .actual-price{
     color: red;
     
+}
+.bar{
+    min-width: 20px;
+    border-bottom: 1px black solid;
+    position: absolute;
+    color: rgba(245, 20, 20, 0);
+    bottom:10px;
+    left: 55px;  
 }
