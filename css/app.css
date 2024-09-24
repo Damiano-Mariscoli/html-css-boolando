@@ -115,8 +115,15 @@ img{
 .debug{
     border: 1px dashed black;
 }
-
-
+.second-img{
+    display: none;
+}
+.col:hover .first-img{
+    display:none;
+}
+.col:hover .second-img{
+    display: inline-block;
+}
 
 
 /* UTILITIES */
